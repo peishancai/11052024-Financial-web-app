@@ -9,7 +9,7 @@ def main():
 
 @app.route("/prediction",methods=["GET","POST"])
 def prediction(): 
-    return(render_template("prediction.html",r=r))
+    return(render_template("prediction.html"))
 
 @app.route("/dbs_price",methods=["GET","POST"])
 def dbs_price(): 
